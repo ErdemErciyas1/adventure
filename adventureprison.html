@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="adventureprison.css">
+	<title>adventuregame</title>
+</head>
+<script src="adventureprison.js"></script>
+<body class="achtergrond">
+
+		<h1 id="hoofdtekst" class="welkom"> Prison Break  </h1>
+
+		
+		
+		<h3 id="nieuwtekst"></h3>
+		
+<img id ="theImage" src="character.png" class="character" onclick="character()" style= "display:none">
+
+
+
+<p id="wolk" class="speech" style="display:none">Get in the heli, click on me!</p>
+
+<input type="image" src="left.png" class="left" id="left"; onclick="left()" style="display:none"/>
+
+
+		
+		<p><input type="button" id="upStairs" class="button1" value="Walk up the stairs" onclick="outSide()"></p>
+
+
+		<p><input type="button" id="cel" class="button2" value="Go to the cell"; onclick="cellRoom()"></p>
+
+
+		<div class=" bringKey">
+		<p><input type="button" id="bringKey" style="display:none;" class="button3" value="Bring the keys"; onclick="bringtheKeys()"></p>
+		</div>
+
+
+
+		<input type="image" src="sleutel.jpg" name="saveForm" class="sleutel" id="sleutel"; onclick="sleutel()"/>
+		
+
+		
+
+			<p id="tekstwolk" class="thought" style="display:none">
+			Welcome, i have an escape plan. Take the card and try to crack the code.</p>
+
+
+			<input type="image" src="card.png" class="card" id="card"; onclick="card()" style="display:none"/>
+
+		
+		<input type="button" id="terug" style="display:none;"  class="goBack" name="answer" value="Go Back" onclick="goBack()"/>
+			
+		<p><input type="button" id="next" style="display:none;" class="button3" value="next" onclick="nextPage()"></p>
+
+
+		<p><input type="button" id="boat" style="display:none;" class="button4" value="Take the boat"; onclick="boat()"></p>
+
+
+		<p><input type="button" id="helikopter" class="button5" value="Get to the chopper"; onclick="helikopter()"></p>
+
+		<p><input type="button" id="parachute" style="display:none;" class="button7" value="Put your parachute ready" onclick="parachute()"></p>
+
+		<p><input type="button" id="koprol" style="display:none;" class="button8" value="Land with a somersault"; onclick="somerSault()"></p>
+
+		<p><input type="button" id="feet" style="display:none;" class="button9" value="Land on your feet"; onclick="landFeet()"></p>
+
+		<input type="button" id="restart" style="display:none;"  class="restart" name="answer" value="Restart the game" onclick="restart()"/>
+
+
+
+
+
+
+		<audio autoplay="true" id="autoplay" src="escape.mp3">
+
+		
+		
+			<audio id="myAudio" controls>
+  
+  <source src="electronic.mp3" type="audio/mpeg">
+ 
+</audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
